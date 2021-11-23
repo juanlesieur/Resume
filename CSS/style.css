@@ -1,0 +1,149 @@
+/*Import font from Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+/*Margins*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Logo*/
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #191c32;
+    color: #fff;
+}
+
+.brand{
+    margin-top: -7px;
+}
+
+.brand span {
+    color: aqua;
+}
+
+
+/*Navbar*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+/*Menu*/
+
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu .active{
+    color: aqua;
+}
+
+.menu a:hover{
+    background-color: aqua;
+    color: #191c32;
+    transition: ease-in 0.4s;
+}
+
+/*Main*/
+
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+h2{
+    font-size: 3em;
+}
+
+span{
+    color: aqua;
+}
+
+.download-cv{
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+}
+
+.download-cv:hover{
+    background-color: #fff;
+    box-shadow: none;
+    transition: ease-in-out .3s;
+}
+
+.main img{
+    width: 270px;
+    border: 1px solid #fff;
+    height: 500px;
+}
+
+/*About me*/
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.about img{
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.about-info{
+    grid-column: 5/10;
+    padding: 4em;
+}
+
+.about-info h3{
+    font-size: 2em;
+    color: #191c32;
+    font-weight: bolder;
+}
+
+.about-info p{
+    color: #191c32;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color: #363c70;
+    margin-top: 10px;
+    margin-bottom: 2em;
+}
+
+/*Portafolio*/
+
